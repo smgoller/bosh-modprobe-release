@@ -1,6 +1,7 @@
 ---
 blobstore:
-  provider: local
+  provider: s3
   options:
-    blobstore_path: /tmp/modprobe-blobs
+    bucket_name: modprobe-boshrelease
+    endpoint: https://server.goller.net:9000/
 final_name: modprobe

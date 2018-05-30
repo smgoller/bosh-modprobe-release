@@ -1,6 +1,6 @@
 name: modprobe
-version: "1"
-commit_hash: 440d345
+version: 0.0.1
+commit_hash: 440dd07
 uncommitted_changes: false
 jobs:
 - name: modprobe
