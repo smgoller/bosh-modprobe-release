@@ -1,0 +1,13 @@
+name: modprobe
+version: "1"
+commit_hash: 440d345
+uncommitted_changes: false
+jobs:
+- name: modprobe
+  version: 4e56d5e0b496e571d75115105f3f21deb66739b2
+  fingerprint: 4e56d5e0b496e571d75115105f3f21deb66739b2
+  sha1: 01ee8178ee52ef3df5207fc6537557086106e040
+license:
+  version: 27fb50c6f9db1455aaf769c2c28035369414bd43
+  fingerprint: 27fb50c6f9db1455aaf769c2c28035369414bd43
+  sha1: 2be0e0a249826f0c1ad913696cc5f16ebfc4d326
