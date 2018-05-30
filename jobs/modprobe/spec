@@ -1,0 +1,11 @@
+---
+name: modprobe
+
+templates: 
+  ctl.erb: bin/ctl
+
+packages: []
+
+properties:
+  modprobe.module:
+    description: kernel module to load

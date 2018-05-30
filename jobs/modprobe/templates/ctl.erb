@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#
+
+PIDFILE=/var/vcap/sys/run/modprobe/pid
+
+case $1 in
+  start)
+    sudo modprobe <%= p('modprobe.module') %>
+    touch ${PIDFILE}
+    ;;
+  stop)
+    sudo rmmod <%= p('modprobe.module') %>
+    rm -f ${PIDFILE}
+    ;;
+  *)
+    echo "Usage: ctl {start|stop}" ;;
+esac
+
+

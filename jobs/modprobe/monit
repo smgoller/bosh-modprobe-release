@@ -1,0 +1,6 @@
+check file modprobe
+  path /var/vcap/sys/run/modprobe/pid
+  start program "/var/vcap/jobs/modprobe/bin/ctl start"
+  stop program "/var/vcap/jobs/modprobe/bin/ctl stop"
+  group vcap
+
