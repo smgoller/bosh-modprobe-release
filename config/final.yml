@@ -1,1 +1,6 @@
-name: modprobe
+---
+blobstore:
+  provider: local
+  options:
+    blobstore_path: /tmp/modprobe-blobs
+final_name: modprobe
