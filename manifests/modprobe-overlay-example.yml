@@ -1,0 +1,31 @@
+---
+name: modprobe-overlay-example
+
+releases:
+- name: modprobe
+  version: latest
+
+instance_groups:
+- name: example
+  instances: 1
+  azs: [z1]
+  networks: [{name: private}]
+  stemcell: trusty
+  vm_type:  default
+  jobs:
+  - release: modprobe
+    name: modprobe
+    properties:
+      modprobe:
+        module: overlay
+stemcells:
+- alias: trusty
+  os: ubuntu-trusty
+  version: latest
+
+update:
+  canaries: 1
+  max_in_flight: 3
+  serial: false
+  canary_watch_time: 1000-60000
+  update_watch_time: 1000-60000
