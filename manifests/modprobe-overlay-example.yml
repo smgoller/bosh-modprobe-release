@@ -32,6 +32,6 @@ update:
 
 releases:
 - name: modprobe
-  sha1: 1bb6469615e47d92ca8923c629c0d059003dbaf8
-  url: https://github.com/smgoller/modprobe-boshrelease/releases/download/v0.0.1/modprobe-0.0.1.tgz
-  version: 0.0.1
+  sha1: 70236fba4d9c77045b112de1ccc333661a3a0f26
+  url: https://github.com/smgoller/modprobe-boshrelease/releases/download/v0.0.2/modprobe-0.0.2.tgz
+  version: 0.0.2
