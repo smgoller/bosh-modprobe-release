@@ -3,5 +3,7 @@ blobstore:
   provider: s3
   options:
     bucket_name: modprobe-boshrelease
-    endpoint: https://server.goller.net:9000/
+    host: server.goller.net
+    port: 9000
+    use_ssl: true
 final_name: modprobe
